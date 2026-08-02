@@ -6,15 +6,18 @@ This repository contains KiCad design files for a home-made custom keyboard.
 ![keymap layout image](keymap/keymap-exported.png)
 
 ## Current State
-***IMPORTANT***: Although the keymap reference sheet (`./keymap/keymap-exported.pdf`) mentions a "Stenotype mode", this is not yet implemented. The rest of the keyboard should be fully functioning though.
+This project is pretty much complete and I use it as my day-to-day keyboard. However, I am currently in the process of trailing a new default layout so the keymap cheatsheet is currently out of date.
 
 ## Key Features
-- Support for both QWERTY and Dvorak layouts
-- Stenography support (**WIP**)
+- Support for both QWERTY and Dvorak layouts (toggled via button)
+- Stenography support (TX Bolt protocol)
+- RGB lighting with many cool animations
+- Hue, saturation, lightness, and speed of RGB LEDs can be customised on-the-fly
 - 128x64 OLED display
   - WPM counter
   - Visual indicators for caps lock, num lock, and scroll lock, as well as layers
-- RGB lighting with cool animations
+  - Visual indicators for LED hue, saturation, lightness, and animation speed
+
 
 ## Repository Layout
 - `./circit_board` = KiCad design files
