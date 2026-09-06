@@ -6,7 +6,7 @@ This repository contains KiCad design files for a home-made custom keyboard.
 ![keymap layout image](keymap/keymap-exported.png)
 
 ## Current State
-This project is pretty much complete and I use it as my day-to-day keyboard. However, I am currently in the process of trailing a new default layout so the keymap cheatsheet is currently out of date.
+This project is pretty much complete and I use it as my day-to-day keyboard. However, I may still make small changes to the default keymap every now and then.
 
 ## Key Features
 - Support for both QWERTY and Dvorak layouts (toggled via button)
